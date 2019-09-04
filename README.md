@@ -24,7 +24,7 @@ Disclaimer:
 
 ### Corpus for this repository
  * You can either recreate the corpus using [the web crawler](https://github.com/UKPLab/conll2019-snopes-crawling)
- * Or request the original siplits of the data to reproduction of the results on this [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..) (However, please take note of the licence agreement)
+ * Or request the original siplits of the data for the reproduction of the results on this [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..) (However, please take note of the licence agreement as the corpus is not publicly available)
  
 
 
