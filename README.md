@@ -22,6 +22,10 @@ Please use the following citation:
 Disclaimer:
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
+### Corpus for this repository
+ * You can either recreate the corpus using [the web crawler](https://github.com/UKPLab/conll2019-snopes-crawling)
+ * Or request the original siplits of the data to reproduction of the results on this [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..)
+
 
 
 ### Installation 
