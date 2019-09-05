@@ -32,6 +32,7 @@ class Config:
         os.makedirs(cls.sentence_retrieval_ensemble_param['model_path'], exist_ok=True)
 
     BASE_DIR = path.dirname(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))))
+    print(BASE_DIR)
     SUBMISSION_FILE_NAME = "predictions.jsonl"
     model_name = "voting_esim_hard_0"
     glove_path = path.join(BASE_DIR, "data/glove/glove.6B.300d.txt.gz")
