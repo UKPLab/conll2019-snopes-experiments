@@ -31,7 +31,8 @@ class Config:
         os.makedirs(cls.submission_folder, exist_ok=True)
         os.makedirs(cls.sentence_retrieval_ensemble_param['model_path'], exist_ok=True)
 
-    BASE_DIR = path.dirname(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))))
+    BASE_DIR = path.dirname(path.dirname(path.abspath(__file__)))
+    # BASE_DIR = path.dirname(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))))
     print(BASE_DIR)
     SUBMISSION_FILE_NAME = "predictions.jsonl"
     model_name = "voting_esim_hard_0"
