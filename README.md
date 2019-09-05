@@ -65,6 +65,7 @@ Disclaimer:
 Download pretrained GloVe Vectors
 ```bash
     wget http://nlp.stanford.edu/data/wordvecs/glove.6B.zip
+    mkdir -p data/glove
     unzip glove.6B.zip -d data/glove
     gzip data/glove/*.txt
 ```
@@ -73,17 +74,23 @@ Download pretrained Wiki FastText Vectors
     wget https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.zip
     mkdir -p data/fasttext
     unzip wiki.en.zip -d data/fasttext
+    
+    wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip
+    mkdir -p data/fasttext
+    unzip wiki-news-300d-1M.vec.zip -d data/fasttext
+
 ```
 
 
 
 ### Pre-processed datasets
 
-Ask for permission to dowload the dataset:  [Snopes Corpus](...)
+Ask for permission to dowload the dataset:  [Snopes Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..)
 
 ```bash
     cd data
-    tar xvfz datasets.tgz
+    unzip corpora_splits.zip
+    mv corpora_splits datasets
 ```
 
 
