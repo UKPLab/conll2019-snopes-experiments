@@ -116,8 +116,8 @@ Available configuration files:
 
 To run the stance detection models, launch the script as following:
 ```bash
-    PYTHONPATH=src python src/scripts/rte.py --mode <train/test> [--config_cnopes_stance_paper <path/to/config/file/json>]
-    e.g.: PYTHONPATH=src python src/scripts/rte.py --mode train --config snopes_stance_paper/config_snopes_use_bilstm.json
+    PYTHONPATH=src python src/scripts/rte.py --mode <train/test> [--config conf_cnopes_stance_paper <path/to/config/file/json>]
+    e.g.: PYTHONPATH=src python src/scripts/rte.py --mode train --config conf_snopes_stance_paper/config_snopes_use_bilstm.json
 ```
 
 Available configuration files: 
