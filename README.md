@@ -88,9 +88,8 @@ Download pretrained Wiki FastText Vectors
 Ask for permission to dowload the dataset:  [Snopes Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..)
 
 ```bash
-    cd data
-    unzip corpora_splits.zip
-    mv corpora_splits datasets
+    unzip snopes_corpus.zip
+    cp snopes_corpus/datasets data/
 ```
 
 
