@@ -334,7 +334,7 @@ The config file regarding the file paths and the hyper parameters is [src/athene
   
 ### Credit: 
 
-This resository was build by Zile Li, Hao Zhang, and Andreas Hanselowski.
+This repository was build by Zile Li, Hao Zhang, and Andreas Hanselowski.
 
 ### License:
   * Apache License Version 2.0
