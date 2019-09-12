@@ -25,8 +25,8 @@ conllu==0.10.6
 cookies==2.2.1
 cycler==0.10.0
 cymem==1.31.2
-cysignals==1.7.2
-Cython==0.28.5
+cysignals==1.10.2
+Cython==0.29.13
 cytoolz==0.8.2
 decorator==4.3.0
 dill==0.2.7.1
@@ -110,7 +110,7 @@ pyasn1==0.4.3
 pycodestyle==2.4.0
 pycorenlp==0.3.0
 pycparser==2.18
-pyfasttext==0.4.5
+pyfasttext==0.4.6
 Pygments==2.2.0
 pyhocon==0.3.35
 pylint==1.9.1
