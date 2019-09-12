@@ -24,7 +24,7 @@ Disclaimer:
 
 ### Corpus for this repository
  * You can either recreate the corpus using [the web crawler](https://github.com/UKPLab/conll2019-snopes-crawling)
- * Or request the original siplits of the data for the reproduction of the results on this [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..) (However, please take note of the licence agreement as the corpus is not publicly available)
+ * Or request the original siplits of the data for the reproduction of the results on this [data archive website](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081) (However, please take note of the licence agreement as the corpus is not publicly available)
  
 
 
@@ -85,11 +85,11 @@ Download pretrained Wiki FastText Vectors
 
 ### Pre-processed datasets
 
-Ask for permission to dowload the dataset:  [Snopes Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/..)
+Ask for permission to dowload the dataset:  [Snopes Corpus](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081)
 
 ```bash
     unzip ukp_snopes_corpus.zip
-    cp snopes_corpus/datasets data/
+    cp -r snopes_corpus/datasets data/
 ```
 
 
