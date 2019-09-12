@@ -23,8 +23,8 @@
       "end_tokens":["@@END@@"]
     }
   },
-  "train_data_path": "data/fever/snopes.stance.train.jsonl",
-  "validation_data_path": "data/fever/snopes.stance.dev.jsonl",
+  "train_data_path": "data/datasets/snopes.stance.train.jsonl",
+  "validation_data_path": "data/datasets/snopes.stance.dev.jsonl",
   "model": {
     "type": "decomposable_attention",
     "text_field_embedder": {
