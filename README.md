@@ -152,12 +152,12 @@ Available configuration files:
 To run the decomposable attention model with Snopes corpus, run the script below:
 ##### Training:
 ```bash
-    PYTHONPATH=src python src/scripts/rte/da/train_da.py data/datasets/snopes.page.json [config/snopes.json or config/stance.json] <folder/to/keep/the/model> --cuda-device <GPU Number> --is-snopes True
+    PYTHONPATH=src python src/scripts/train_da.py data/datasets/snopes.page.json [config/snopes.json or config/stance.json] <folder/to/keep/the/model> --cuda-device <GPU Number> --is-snopes True
     e.g.: PYTHONPATH=src python src/scripts/train_da.py data/datasets/snopes.page.json config/stance.json model/decomp_attention_stance/ --cuda-device 0 --is-snopes True
 ```
 ##### Testing:
 ```bash
-    PYTHONPATH=src python src/scripts/rte/da/eval_da.py data/datasets/snopes.page.json <folder/to/keep/the/model>/model.tar.gz [data/datasets/snopes.test.jsonl or data/datasets/snopes.stance.test.jsonl] --cuda-device <GPU Number> --is-snopes True
+    PYTHONPATH=src python src/scripts/eval_da.py data/datasets/snopes.page.json <folder/to/keep/the/model>/model.tar.gz [data/datasets/snopes.test.jsonl or data/datasets/snopes.stance.test.jsonl] --cuda-device <GPU Number> --is-snopes True
     e.g.: PYTHONPATH=src python src/scripts/eval_da.py data/datasets/snopes.page.json model/decomp_attention_stance/model.tar.gz data/datasets/snopes.stance.test.jsonl --cuda-device 0 --is-snopes True
 ```
 
