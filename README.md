@@ -97,7 +97,7 @@ Ask for permission to dowload the dataset:  [Snopes Corpus](https://tudatalib.ul
 
 ```bash
     PYTHONPATH=src python src/scripts/evidence_extraction.py --model  [esim or bilstm_ranking or decompos_att or tf-idf or random_baseline]
-    e.g.: PYTHONPATH=src python src/scripts/rte.py --model bilstm_ranking
+    e.g.: PYTHONPATH=src python src/scripts/evidence_extraction.py --model bilstm_ranking
 ```
 
 Available configuration files: 
