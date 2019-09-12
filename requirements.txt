@@ -25,8 +25,8 @@ conllu==0.10.6
 cookies==2.2.1
 cycler==0.10.0
 cymem==1.31.2
-cysignals==1.7.2
-Cython==0.28.5
+cysignals==1.10.2
+Cython==0.29.13
 cytoolz==0.8.2
 decorator==4.3.0
 dill==0.2.7.1
