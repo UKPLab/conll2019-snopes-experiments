@@ -117,8 +117,8 @@ pylint==1.9.1
 pyparsing==2.2.0
 pytest==3.6.3
 python-dateutil==2.7.3
-pyqt5==5.13
-pyqtwebengine==5.13
+pyqt5==5.12
+pyqtwebengine==5.12
 pytz==2017.3
 PyYAML==3.12
 pyzmq==17.0.0
@@ -130,7 +130,7 @@ retinasdk==1.0.0
 rope==0.10.7
 rsa==3.4.2
 s3transfer==0.1.13
-sanic==0.6.0
+sanic==0.7.0
 Sanic-Cors==0.9.4
 Sanic-Plugins-Framework==0.5.2.dev20180201
 scikit-learn==0.19.1
