@@ -191,6 +191,13 @@ bert_port is default as 5555, and bert_port_out default as 5556. These two ports
 For more detail, please refer to [bert-as-service](https://github.com/hanxiao/bert-as-service).
 
 
+### Run AtheneMLP model for stance detection (not yet fixed)
+
+Please note, the comand below is not yet wroking properly and will be fixed later. If you want to fix it yourselfe, the required files are in the directory src/fnc
+
+```bash
+    PYTHONPATH=src python python src/fnc/pipeline.py
+```
 
 
 
