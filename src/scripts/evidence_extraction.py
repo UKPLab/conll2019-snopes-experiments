@@ -152,8 +152,8 @@ def pipeline(model="bilstm_ranking"):
     test_path = os.path.join(path,       "data/datasets/snopes.evidence.test.jsonl") 
     new_train_path = os.path.join(path,  "data/datasets/snopes.evidence.train.jsonl") 
     db_filename = os.path.join(path,     "data/datasets/snopes.page.json") 
-    fasttext_path = os.path.join(path, "data/fasttext/wiki.en.bin")
-    # fasttext_path = os.path.join(path, "data/fasttext/wiki-news-300d-1M.vec")
+    # fasttext_path = os.path.join(path, "data/fasttext/wiki.en.bin")
+    fasttext_path = os.path.join(path, "data/fasttext/wiki-news-300d-1M.vec")
     
     random_state = 55
     tf.set_random_seed(random_state)
