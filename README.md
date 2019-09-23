@@ -6,7 +6,7 @@
 
 
 
-Link to the paper: [A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking](https://arxiv.org/...)
+Link to the paper: [A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_43392.en.jsp)
 
 Please use the following citation:
 ```
