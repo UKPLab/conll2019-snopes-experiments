@@ -1,12 +1,10 @@
 from common.dataset.reader import JSONLineReader
-# from retrieval.fever_doc_db import FeverDocDB
 import numpy as np
 from tqdm import tqdm
 import random
 import pickle
 import os
 import nltk
-print(nltk.data.path)
 from pyfasttext import FastText
 import json
 
