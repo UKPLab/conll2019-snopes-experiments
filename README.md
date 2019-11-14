@@ -125,7 +125,7 @@ Available configuration files:
 |---|---|
 |config_snopes_bert_sent_bilstm.json|BERT sentence embeddings with BiLSTM encoding|
 |config_snopes_bert_word_bilstm.json|BERT word embeddings with BiLSTM encoding|
-|config_snopes_use_bilstm.json|Google Universal Sentence Encoder |
+|config_snopes_use_bilstm.json|Google Universal Sentence Encoder (USE+Attent) |
 
 
 
