@@ -75,7 +75,9 @@ Download pretrained Wiki FastText Vectors
     mkdir -p data/fasttext
     unzip wiki.en.zip -d data/fasttext
     
-    wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip
+    or (in this case the folder path "fasttext_path": "data/fasttext/wiki.en.bin" the config files in the folders conf_snopes_paper and conf_snopes_stance_paper need to be changed to "data/fasttext/wiki-news-300d-1M.vec" ) 
+    
+    wget https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec
     mkdir -p data/fasttext
     unzip wiki-news-300d-1M.vec.zip -d data/fasttext
 
