@@ -6,6 +6,7 @@ import random
 import pickle
 import os
 import nltk
+print(nltk.data.path)
 from pyfasttext import FastText
 import json
 
