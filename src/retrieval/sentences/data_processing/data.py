@@ -282,6 +282,7 @@ class Data(object):
 
     def nltk_tokenizer(self,sent):
         # sent = sent_processing(sent)
+        print(sent)
         return nltk.word_tokenize(sent)
 
     def get_words(self,claims, sents):
