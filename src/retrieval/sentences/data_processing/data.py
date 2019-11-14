@@ -6,7 +6,6 @@ import random
 import pickle
 import os
 import nltk
-nltk.download('punkt')
 from pyfasttext import FastText
 import json
 
@@ -279,11 +278,10 @@ class Data(object):
         sent = sent.replace('\n', '')
         sent = sent.replace('-', ' ')
         sent = sent.replace('/', ' ')
-        sent = sent.replace('\'', ' ')
         return sent
 
     def nltk_tokenizer(self,sent):
-        sent = sent_processing(sent)
+        # sent = sent_processing(sent)
         return nltk.word_tokenize(sent)
 
     def get_words(self,claims, sents):
