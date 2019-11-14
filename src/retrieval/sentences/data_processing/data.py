@@ -6,6 +6,7 @@ import random
 import pickle
 import os
 import nltk
+nltk.download('punkt')
 from pyfasttext import FastText
 import json
 
