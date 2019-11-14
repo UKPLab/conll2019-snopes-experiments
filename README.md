@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/29311022/27278631-2e19f99e-54e2-11e7-919c-f89ae0c90648.png" height=70px/>
 <img src="https://user-images.githubusercontent.com/29311022/27184769-65c6583a-51e3-11e7-90e0-12a4bdf292e2.png" height=70px/>
 
-# Repository for the CoNLL 2019 paper: A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking
+## Repository for the CoNLL 2019 paper: A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking
 
 
 
