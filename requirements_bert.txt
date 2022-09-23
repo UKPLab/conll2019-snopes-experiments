@@ -77,7 +77,7 @@ plac==0.9.6
 preshed==1.0.0
 prettytable==0.7.2
 prompt-toolkit==1.0.15
-protobuf==3.7.1
+protobuf==3.18.3
 psycopg2==2.7.4
 ptyprocess==0.5.2
 pyasn1==0.4.3
